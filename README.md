@@ -27,8 +27,8 @@ python3 setup.py build develop
 ```
 
 ## 2. Chuẩn bị 
-Trước khi tiến hành Inference, vui lòng để toàn bộ hình ảnh cần được đánh giá vào thư mục `data/public_test_images` (chúng tôi đã có down sẵn tập test A ở file `download.sh`).
-Trước khi tiến hành đánh giá vui lòng để dữ liệu hình ảnh vào thư mực `datasets/` (ví dụ nếu là tập private test thì đường dẫn tới ảnh của private test sẽ là `datasets/uaic2022_private_test/images/ `)
+Trước khi tiến hành inference, vui lòng để toàn bộ hình ảnh cần được đánh giá vào thư mục `data/public_test_images`
+Trước khi tiến hành  inference vui lòng để dữ liệu hình ảnh vào thư mực `datasets/` (ví dụ nếu là tập private test thì đường dẫn tới ảnh của private test sẽ là `datasets/uaic2022_private_test/images/ `)
 Để tải mô hình đã được huấn luyện ta chỉ cần chạy lệnh sau
 ```
 cd weights
