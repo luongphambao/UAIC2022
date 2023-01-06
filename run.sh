@@ -1,4 +1,4 @@
-$data_dir=../datasets/uaic2022_private_test/
+$data_dir=./UAIC2022/datasets/uaic2022_private_test/ #thay đổi ở đây
 rm -rf results
 mkdir results
 cd ABCnet
