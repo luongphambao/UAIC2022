@@ -19,7 +19,7 @@ Install các thư viện cần thiết khác
 ```
 pip install -r requirements.txt
 ```
-#Cài đặt text detection
+Cài đặt text detection
 ```
 cd ABCnet
 rm -rf build
