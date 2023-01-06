@@ -45,7 +45,12 @@ Sau đó tiến hành chạy inference bằng cách chỉnh sửa đường ản
 ```
 bash run.sh
 ```
-
+Sau đó ta sẽ tạo file để nộp từ folder submision
+```
+cd submision
+zip -r -D predicted.zip *
+```
+sẽ lưu trong folder submision file predicted.zip
 
 
 
