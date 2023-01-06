@@ -52,6 +52,8 @@ zip -r -D predicted.zip *
 ```
 sẽ lưu trong folder submision file predicted.zip
 
+Ngoài ra nhóm có cung cấp một file notebook inference_UAIC.ipynb ví dụ cho việc inference trên tập private test
+
 
 
 
