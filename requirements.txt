@@ -6,7 +6,6 @@ Pillow
 opencv-python
 tensorboardX
 editdistance
-synthtiger
 numpy
 opencv-python
 addict
