@@ -1,7 +1,7 @@
 
 
 # UAIC2022-DeadlineKLTN
-
+Nhóm sử dụng mô hình ABCnet cho giai đoạn detection và VietOCR+vedastr cho giai đoạn recognition (mô hình phân loại arttext do sử dụng không hiệu quả nên đã bị bỏ đi)
 
 ## 1. Setup môi trường:
 Đầu tiên ta cần cài đặt torch với cuda11.1
@@ -22,6 +22,7 @@ pip install -r requirements.txt
 #Cài đặt text detection
 ```
 cd ABCnet
+rm -rf build
 python3 setup.py build develop
 ```
 
@@ -30,6 +31,7 @@ Trước khi tiến hành Inference, vui lòng để toàn bộ hình ảnh cầ
 Trước khi tiến hành đánh giá vui lòng để dữ liệu hình ảnh vào thư mực `datasets/` (ví dụ nếu là tập private test thì đường dẫn tới ảnh của private test sẽ là `datasets/uaic2022_private_test/images/ `)
 Để tải mô hình đã được huấn luyện ta chỉ cần chạy lệnh sau
 ```
+cd weights
 bash down_weights.sh
 ```
 ## 3. Chạy Inference
