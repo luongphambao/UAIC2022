@@ -11,8 +11,10 @@ pip install torch==1.10.0+cu111 torchvision==0.11.0+cu111 torchaudio==0.10.0 -f 
 
 Cài  đặt detectron2
 ```
-python -m pip install detectron2 -f \
-  https://dl.fbaipublicfiles.com/detectron2/wheels/cu111/torch1.10/index.html
+git clone https://github.com/facebookresearch/detectron2.git
+%cd detectron2
+git checkout 9eb4831f742ae6a13b8edb61d07b619392fb6543
+python -m pip install -e detectron2
 ```
 
 Install các thư viện cần thiết khác
