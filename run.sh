@@ -10,4 +10,4 @@ python tools/detect.py \
 cd ..
 python3 process_detection.py $data_dir
 python3 predict_ocr.py $data_dir
-python3 visualize_final.py
+#python3 visualize_final.py
