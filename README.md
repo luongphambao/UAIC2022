@@ -54,6 +54,7 @@ sẽ lưu trong folder submision file predicted.zip
 
 Ngoài ra nhóm có cung cấp một file notebook inference_UAIC.ipynb ví dụ cho việc inference trên tập private test
 
+https://colab.research.google.com/drive/1ymmU6GVkqqoYq7x5COnCjrPLj1V9AJL4?usp=sharing
 
 
 
